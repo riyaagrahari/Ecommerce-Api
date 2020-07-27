@@ -1,12 +1,16 @@
 require('dotenv').config();
-const Express = require("express");
-const BodyParser = require("body-parser");
-const { request, response } = require("express");
-const addTransaction = require("./Controllers/postNewPurchase")
-const getUserTransaction = require("./Controllers/getUserTransactions")
-const postLogin = require("./Controllers/postLogin")
+const Express = require('express');
+const BodyParser = require('body-parser');
+const { request, response } = require('express');
+
+const addTransaction = require('./Controllers/postNewPurchase')
+const getUserTransaction = require('./Controllers/getUserTransactions')
+const postLogin = require('./Controllers/postLogin')
 const logout = require('./Controllers/logout')
-const cookieParser = require("cookie-parser")
+const signup = require('./Controllers/signup')
+
+const cookieParser = require("cookie-parser");
+const { sign } = require('jsonwebtoken');
 const app = Express();
 const port = 5000
 
@@ -33,5 +37,7 @@ app.get("/itemsBought", getUserTransaction);
 app.post("/newPurchase",addTransaction);
 
 app.get("/logout", logout);
+
+app.post("/signup", signup);
 
 

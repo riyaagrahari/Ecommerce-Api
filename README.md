@@ -1,6 +1,6 @@
 # Ecommerce-API
 Ecommerce API endpoints with MongoDB as database.
-JWT tokens are generated for authentication and signup-login process with cookie (storing jwt token) for autherization.
+JWT tokens are generated for authentication and signup-login process with cookie (storing jwt token) for authorization.
 
 ![image](https://user-images.githubusercontent.com/24872414/88535631-e60af080-d027-11ea-8bf8-86871902f185.png)
 

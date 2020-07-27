@@ -3,6 +3,8 @@
 Ecommerce API with current implemented endpoints:
 - /signup
 - /login
-- /Itemn
+- /itemsBought
 - /newPurchase
-- itemsBought
+- /logout
+
+JWT tokens are getting generated for secure login and stored in cookies to maintain sessions.

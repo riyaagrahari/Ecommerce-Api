@@ -23,7 +23,7 @@ Current implemented endpoints:
 ## /newPurchase
 
   without login ( Authentication )
-  ![image](https://user-images.githubusercontent.com/24872414/88532857-efde2500-d022-11ea-9bfc-d5a09be7543d.png)
+  ![image](https://user-images.githubusercontent.com/24872414/88538313-c4603800-d02c-11ea-8565-0368a1cd1a83.png)
 
   after login
   ![image](https://user-images.githubusercontent.com/24872414/88533639-3f712080-d024-11ea-92db-06a8d0d73413.png)

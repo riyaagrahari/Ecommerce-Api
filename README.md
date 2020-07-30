@@ -6,11 +6,11 @@ Mongo-Client is used for connecting API to Database.
 ![image](https://user-images.githubusercontent.com/24872414/88535631-e60af080-d027-11ea-8bf8-86871902f185.png)
 
 Current implemented endpoints:
-## /signup
+## localhost:5000/signup
 
   ![image](https://user-images.githubusercontent.com/24872414/88532632-90801500-d022-11ea-8052-bd9a905f9261.png)
 
-## /login
+## localhost:5000/login
 
   without signup ( Authorization )
   ![image](https://user-images.githubusercontent.com/24872414/88532764-ca511b80-d022-11ea-8f28-04a42c6b7ce2.png)
@@ -18,10 +18,10 @@ Current implemented endpoints:
   login (after signup)
   ![image](https://user-images.githubusercontent.com/24872414/88532857-efde2500-d022-11ea-9bfc-d5a09be7543d.png)
 
-## /itemsBought
+## localhost:5000/itemsBought
   ![image](https://user-images.githubusercontent.com/24872414/88534742-59136780-d026-11ea-907d-cf894e3da8a9.png)
 
-## /newPurchase
+## localhost:5000/newPurchase
 
   without login ( Authentication )
   ![image](https://user-images.githubusercontent.com/24872414/88538313-c4603800-d02c-11ea-8565-0368a1cd1a83.png)
@@ -29,6 +29,6 @@ Current implemented endpoints:
   after login
   ![image](https://user-images.githubusercontent.com/24872414/88533639-3f712080-d024-11ea-92db-06a8d0d73413.png)
 
-## /logout
+## localhost:5000/logout
   ![image](https://user-images.githubusercontent.com/24872414/88533881-9676f580-d024-11ea-927f-a4f3fbbfa0d3.png)
 

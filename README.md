@@ -6,6 +6,7 @@ Mongo-Client is used for connecting API to Database.
 ![image](https://user-images.githubusercontent.com/24872414/88535631-e60af080-d027-11ea-8bf8-86871902f185.png)
 
 Current implemented endpoints:
+
 ## /signup
 
   ![image](https://user-images.githubusercontent.com/24872414/88532632-90801500-d022-11ea-8052-bd9a905f9261.png)

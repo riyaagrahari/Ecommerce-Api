@@ -1,3 +1,7 @@
+To Do:
+- [ ] Routes
+- [ ] Items in Cart Endpoint
+
 # Ecommerce-API
 Ecommerce API endpoints with MongoDB as database.
 JWT tokens are generated for authentication and signup-login process with cookie (storing jwt token) for authorization.

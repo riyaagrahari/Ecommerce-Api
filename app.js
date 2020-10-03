@@ -12,11 +12,12 @@ const signup = require('./Controllers/signup')
 const cookieParser = require("cookie-parser");
 const { sign } = require('jsonwebtoken');
 const app = Express();
-const port = 5000
+const port = 5003
 
 app.use(cookieParser());
 app.use(BodyParser.json());
 app.use(BodyParser.urlencoded({extended: true}));
+const authRoute = require('./Routes/authentication.js');
 
 app.listen(port, () => { 
     console.log(`Server started at port ${port}!`)
@@ -29,15 +30,12 @@ app.get("/", (request, response) => {
     
 });
 
-app.post("/login", postLogin)
+app.use("/auth", authRoute)
 
 //const generateJWTToken = (getLogin.user)
 app.get("/itemsBought", getUserTransaction);
 
 app.post("/newPurchase",addTransaction);
 
-app.get("/logout", logout);
-
-app.post("/signup", signup);
 
 

@@ -18,6 +18,7 @@ app.use(cookieParser());
 app.use(BodyParser.json());
 app.use(BodyParser.urlencoded({extended: true}));
 const authRoute = require('./Routes/authentication.js');
+const itemsBoughtRoute = require('./Routes/itemsBought.js');
 
 app.listen(port, () => { 
     console.log(`Server started at port ${port}!`)
@@ -33,7 +34,7 @@ app.get("/", (request, response) => {
 app.use("/auth", authRoute)
 
 //const generateJWTToken = (getLogin.user)
-app.get("/itemsBought", getUserTransaction);
+app.use("/itemsBought", itemsBoughtRoute);
 
 app.post("/newPurchase",addTransaction);
 
